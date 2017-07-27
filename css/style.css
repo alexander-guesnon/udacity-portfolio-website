@@ -1,1 +1,9 @@
 /*test*/
+body{
+  background-color: white;
+  color: #2d3c49;
+}
+hr {
+  height: 4px;
+  background-color: #7d87ad;
+}
