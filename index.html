@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<!--Ctl-Alt-L to start server-->
+<!--Ctl-Alt-q to stop server-->
 <html>
 
 <head>
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -10,38 +13,48 @@
 
 <body>
   <header>
-    <img src="img/udacity.png" alt="icon" />
-    <h1>Alex Guesnon</h1>
-    <h3>Full-Stack Deveoloper</h3>
+    <div class="icon"><img src="img/udacity.png" alt="icon"/></div>
+    <div class="declarations">
+      <h1 class="name">Alex Guesnon</h1>
+      <h3 class="title">Full-Stack Deveoloper</h3>
+    </div>
   </header>
   <hr />
   <!--TODO replace dives with the apropreate html semantic elements -->
   <div class="background-img-container">
-    <img src="img/Backgrounds.png" alt="center picutre">
-  </div>
-  <div>
-    <h2>Featured Work</h2>
-    <!--replace with a row colom type structure-->
-    <div>
-      <img src="img/placeholder.png" alt="website photo 1">
-      <h2>WEB 1</h2>
-      <h4>https://github.com/alexgooz/web1</h4>
-    </div>
-    <div>
-      <img src="img/placeholder.png" alt="website photo 2">
-      <h2>WEB 2</h2>
-      <h4>https://github.com/alexgooz/web2</h4>
-    </div>
-    <div>
-      <img src="img/placeholder.png" alt="website photo 3">
-      <h2>WEB 3</h2>
-      <h4>https://github.com/alexgooz/web3</h4>
-    </div>
+    <img src="img/Background.jpg" alt="center picutre">
   </div>
 
+  <article>
+    <h2>Featured Work</h2>
+    <div class="website-container"><!--dont expand beond the containter-->
+      <div class="website">
+          <a href="https://alexgooz.github.io/Random-Quote-Machine/">
+        <img src="img/web1.png" alt="website photo 1">
+        <h2>WEB 1</h2>
+        <h4>https://alexgooz.github.io/Random-Quote-Machine/</h4>
+      </a>
+      </div>
+      <div class="website">
+          <a href="https://alexgooz.github.io/wiki-search/">
+        <img src="img/web2.png" alt="website photo 2">
+        <h2>WEB 2</h2>
+        <h4>https://alexgooz.github.io/wiki-search/</h4>
+              </a>
+      </div>
+      <div class="website">
+        <a href="https://alexgooz.github.io/What-s-the-Weather-Like/">
+          <img src="img/web3.png" alt="website photo 3">
+          <h2>WEB 3</h2>
+          <h4>https://alexgooz.github.io/What-s-the-Weather-Like/</h4>
+
+        </a>
+      </div>
+    </div>
+  </article>
 
   <footer>
-    By Alex Guesnon
+    By <a href="https://alexgooz.github.io">Alex Guesnon</a>
   </footer>
 </body>
 
